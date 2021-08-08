@@ -405,15 +405,15 @@ void storeToFile(Cuboid *matrix, int size, FILE *fp) {
 
 /**
  * Function that peforms the calculation of the surface area of a cuboid.
- *  	   ________
- *		  /  	  /|
- * 		 /		 / | height
- * 		---------  |
- * 		|		|  /
- * 		|		| /	length
- * 		|		|/
- * 		---------
- * 			width
+ *  	   	     ________
+ *		  /  	     /|
+ * 		 /	    / | height
+ * 		 ---------    |
+ * 		|	   |  /
+ * 		|	   | /	length
+ * 		|	   |/
+ * 		 ---------
+ * 		  width
  */
 double getSurfaceArea(Cuboid *cuboid) {
 
